@@ -17,6 +17,13 @@ Starting the Application
 4. If you see message 'SERVER LAUNCHED AT PORT 8000', that means app is up and running.
 5. The app has been internally configured to hit database at localhost with username root and password root.
 
+LOGS
+
+1. Create a folder classdojo inside /var/log
+2. Create file debug.log inside /var/log/classdojo
+3. Give write permisiions to the file.
+4. All the logs will go inside debug.log file
+
 
 APIs
 
