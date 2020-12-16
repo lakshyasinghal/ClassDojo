@@ -1,0 +1,85 @@
+def jacksonVersion = '2.6.3'
+def log4j2Version = '2.3'
+def jerseyVersion = '2.19'
+def jettyVersion = '9.3.2.v20150730'
+def jooqVersion = '3.14.4'
+
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    //log4j
+    compile 'log4j:log4j:1.2.17'
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile 'org.slf4j:slf4j-log4j12:1.7.5'
+    
+    //hikari 
+    //compile group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5'
+    
+    //jackson
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+    
+    //
+    compile group: 'javax.annotation', name: 'javax.annotation-api', version: '1.2'
+    //jersey
+    compile group: 'org.glassfish.jersey.bundles.repackaged', name: 'jersey-guava', version: jerseyVersion
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-common', version: jerseyVersion
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: jerseyVersion
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-server', version: jerseyVersion
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: jerseyVersion
+
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.0.1'
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: jerseyVersion
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: '2.17'
+	//jetty
+    compile group: 'org.eclipse.jetty', name: 'jetty-server', version: jettyVersion
+    compile group: 'org.eclipse.jetty', name: 'jetty-http', version: jettyVersion
+    compile group: 'org.eclipse.jetty', name: 'jetty-io', version: jettyVersion
+    compile group: 'org.eclipse.jetty', name: 'jetty-security', version: jettyVersion
+    compile group: 'org.eclipse.jetty', name: 'jetty-util', version: jettyVersion
+    compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: jettyVersion
+    
+    //jooq
+    compile group: 'org.jooq', name: 'jooq', version: jooqVersion
+    compile group: 'org.jooq', name: 'jooq-meta', version: jooqVersion
+    compile group: 'org.jooq', name: 'jooq-codegen', version: jooqVersion
+    
+	//mysql
+    compile 'mysql:mysql-connector-java:5.1.37'
+    //redis
+    compile 'redis.clients:jedis:1.5.0'
+    
+    compile files('libs/HikariCP-3.4.1.jar')
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
+}
+
+
+jar {
+    manifest {
+        attributes "Main-Class": "com.classDojo.init.App"
+        attributes "Class-Path": configurations.compile.collect { it.absolutePath }.join(" ")
+    }
+}
+
+task uberjar(type:Jar) {
+    
+	manifest {
+        attributes "Main-Class": "com.classDojo.init.App",
+        "Implementation-Title": "Jar",
+        "Implementation-Version": "1.0"
+    }
+    
+    from {
+    	configurations.compile.collect { it.isDirectory() ? it:zipTree(it)}
+    }
+    with jar
+}

@@ -1,0 +1,111 @@
+Manifest-Version: 1.0
+Class-Path: /home/lakshya/Tech/Apps/ClassDojo/server/libs/HikariCP-3.4
+ .1.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.slf4j/slf
+ 4j-log4j12/1.7.5/6edffc576ce104ec769d954618764f39f0f0f10d/slf4j-log4j
+ 12-1.7.5.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.slf
+ 4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-ap
+ i-1.7.12.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/log4j/l
+ og4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar
+  /home/lakshya/.gradle/caches/modules-2/files-2.1/org.glassfish.jerse
+ y.media/jersey-media-json-jackson/2.19/d5a406834ec5181ac0885384e5cdb9
+ e5f6234f5e/jersey-media-json-jackson-2.19.jar /home/lakshya/.gradle/c
+ aches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-j
+ son-provider/2.5.1/3141b6564eb986afc27fc1354aad0436228b028e/jackson-j
+ axrs-json-provider-2.5.1.jar /home/lakshya/.gradle/caches/modules-2/f
+ iles-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.5.1/2df73b0
+ 2d1e697b0a7e6711bb51180d8e5320ce/jackson-jaxrs-base-2.5.1.jar /home/l
+ akshya/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.modul
+ e/jackson-module-jaxb-annotations/2.5.1/b2bab79b952404e80825b85295b2f
+ 53aad4e15c2/jackson-module-jaxb-annotations-2.5.1.jar /home/lakshya/.
+ gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-
+ databind/2.6.3/5c4fcae53dd82e2c549b8322d78c6ff47c94c8a8/jackson-datab
+ ind-2.6.3.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.gl
+ assfish.jersey.containers/jersey-container-servlet-core/2.19/4da2f11f
+ a267f6f6d0a7d0625b8ad24acaf12209/jersey-container-servlet-core-2.19.j
+ ar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.glassfish.jer
+ sey.core/jersey-server/2.19/e8be95119e9cee86f9ddbc95827a023b65351a87/
+ jersey-server-2.19.jar /home/lakshya/.gradle/caches/modules-2/files-2
+ .1/org.glassfish.jersey.core/jersey-client/2.19/b6bf1e6991be31e1067c6
+ ac9672330c0a946116d/jersey-client-2.19.jar /home/lakshya/.gradle/cach
+ es/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-multip
+ art/2.17/dcce7bfb13c261753c1a58529c73e734a3b4b583/jersey-media-multip
+ art-2.17.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.gla
+ ssfish.jersey.media/jersey-media-jaxb/2.19/c4b4a3de6e6ae85473316c9395
+ eb5913bfe90d1f/jersey-media-jaxb-2.19.jar /home/lakshya/.gradle/cache
+ s/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.19/8f
+ 9cbcfa71d324d9004134a86c15a124fc22fabb/jersey-common-2.19.jar /home/l
+ akshya/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.anno
+ tation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotat
+ ion-api-1.2.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.
+ glassfish.jersey.bundles.repackaged/jersey-guava/2.19/f0fd5ea29c2b6c6
+ 14d9e7016a75fe7a01e4c9887/jersey-guava-2.19.jar /home/lakshya/.gradle
+ /caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.2.v20
+ 150730/a7ce8b11d340e152dd7dc94e7605c84230f05cf5/jetty-servlet-9.3.2.v
+ 20150730.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.ecl
+ ipse.jetty/jetty-security/9.3.2.v20150730/194f37706614f236bfbf384c1e7
+ cf531771b38f7/jetty-security-9.3.2.v20150730.jar /home/lakshya/.gradl
+ e/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.2.v20
+ 150730/d53622049200cee5c344b29c848d581aa876f93e/jetty-server-9.3.2.v2
+ 0150730.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/javax.se
+ rvlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7
+ c/javax.servlet-api-3.1.0.jar /home/lakshya/.gradle/caches/modules-2/
+ files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.19/9a2d9
+ 527f0cbde3b7935978bbd51d8cebf0a2f32/jersey-entity-filtering-2.19.jar 
+ /home/lakshya/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws
+ .rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-ap
+ i-2.0.1.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.ecli
+ pse.jetty/jetty-http/9.3.2.v20150730/5a811cf50295ddae7df488e626625243
+ 80f18821/jetty-http-9.3.2.v20150730.jar /home/lakshya/.gradle/caches/
+ modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.2.v20150730/22bd4a
+ d4856527847772f975a997f17da1e6766/jetty-io-9.3.2.v20150730.jar /home/
+ lakshya/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-ut
+ il/9.3.2.v20150730/96eab74d8886ee9d51b6a3eeab9744807e842169/jetty-uti
+ l-9.3.2.v20150730.jar /home/lakshya/.gradle/caches/modules-2/files-2.
+ 1/org.jooq/jooq-codegen/3.14.4/59456a92c2f58bb6ea1f7be86085c45a2a71af
+ 69/jooq-codegen-3.14.4.jar /home/lakshya/.gradle/caches/modules-2/fil
+ es-2.1/org.jooq/jooq-meta/3.14.4/830a8bed5fb48968d0fbab61d12c41295fe3
+ af51/jooq-meta-3.14.4.jar /home/lakshya/.gradle/caches/modules-2/file
+ s-2.1/org.jooq/jooq/3.14.4/b7f96445dc0a63e012f4008ea130c5941746e855/j
+ ooq-3.14.4.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/mysql
+ /mysql-connector-java/5.1.37/2c378637f6faff77541244e8257b446f04324bd8
+ /mysql-connector-java-5.1.37.jar /home/lakshya/.gradle/caches/modules
+ -2/files-2.1/redis.clients/jedis/1.5.0/51109b69c6b96a0a70f5477c3070d1
+ b13061665c/jedis-1.5.0.jar /home/lakshya/.gradle/caches/modules-2/fil
+ es-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.0/a0990e2e8
+ 12ac6639b6ce955c91b13228500476e/jackson-annotations-2.6.0.jar /home/l
+ akshya/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/
+ jackson-core/2.6.3/142ce64dcd709a4b5f6e7d71305a31d3893d077/jackson-co
+ re-2.6.3.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/org.gla
+ ssfish.hk2/hk2-locator/2.4.0-b25/89ee38141b06c712f0f3caa1ca08590ce80c
+ 71f6/hk2-locator-2.4.0-b25.jar /home/lakshya/.gradle/caches/modules-2
+ /files-2.1/org.glassfish.hk2/hk2-api/2.4.0-b25/be7693579fcb1184455e06
+ 238c8652a4c2645d95/hk2-api-2.4.0-b25.jar /home/lakshya/.gradle/caches
+ /modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.4.0-b2
+ 5/e0ce2f6a86fcbec80acbf0d3aca9e348be74e950/javax.inject-2.4.0-b25.jar
+  /home/lakshya/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/o
+ sgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/o
+ sgi-resource-locator-1.0.1.jar /home/lakshya/.gradle/caches/modules-2
+ /files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779
+ d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar /home/laksh
+ ya/.gradle/caches/modules-2/files-2.1/org.jvnet.mimepull/mimepull/1.9
+ .3/c55096ff89a27e22c2e081371d0570ac19cc6788/mimepull-1.9.3.jar /home/
+ lakshya/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reacti
+ ve-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-st
+ reams-1.0.2.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/java
+ x.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/ja
+ xb-api-2.3.1.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/com
+ mons-pool/commons-pool/1.5.5/7d8ffbdc47aa0c5a8afe5dc2aaf512f369f1d19b
+ /commons-pool-1.5.5.jar /home/lakshya/.gradle/caches/modules-2/files-
+ 2.1/org.glassfish.hk2/hk2-utils/2.4.0-b25/da0631bf28e14381c117779bb3c
+ 518f366813481/hk2-utils-2.4.0-b25.jar /home/lakshya/.gradle/caches/mo
+ dules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2
+ .4.0-b25/3316675bccd4e0ca9e58c2bf150c6410bc98910a/aopalliance-repacka
+ ged-2.4.0-b25.jar /home/lakshya/.gradle/caches/modules-2/files-2.1/or
+ g.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219d
+ b5b/javassist-3.18.1-GA.jar /home/lakshya/.gradle/caches/modules-2/fi
+ les-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9
+ 537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar /home/lakshya/
+ .gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da
+ 39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar
+Main-Class: com.classDojo.init.App
+
