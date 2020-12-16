@@ -1,7 +1,0 @@
-DROP TABLE IF EXISTS `Subjects`;
-
-CREATE TABLE `Subjects` (
-	id INT AUTO_INCREMENT PRIMARY KEY,
-	teacherId INT NOT NULL,
-	name VARCHAR(30) NOT NULL
-);
